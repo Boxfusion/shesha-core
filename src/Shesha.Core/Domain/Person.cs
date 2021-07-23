@@ -278,5 +278,7 @@ namespace Shesha.Domain
 
         public virtual bool IsMobileVerified { get; set; }
         public virtual string SecurityPin { get; set; }
+        [MultiValueReferenceList("Shesha.Core", "CommonLanguage")]
+        public virtual int? PreferredLanguage { get; set; }
     }
 }
