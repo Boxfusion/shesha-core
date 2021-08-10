@@ -46,5 +46,6 @@ namespace Shesha.Domain
         public virtual string FullAddress { get; set; }
 
         public virtual int? TenantId { get; set; }
+        public virtual string BuildingNameUnitNumber { get; set; }
     }
 }
